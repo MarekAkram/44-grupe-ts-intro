@@ -6,7 +6,8 @@
   "scripts": {
     "ts": "tsc --watch",
     "dev": "nodemon ./dist",
-    "shop": "nodemon ./dist/Shop.js",
+    "shop:func": "nodemon ./dist/shop-func.js",
+    "shop:class": "nodemon ./dist/Shop.js",
     "test": "echo \"Error: no test specified\" && exit 1"
 },
   "keywords": [],
